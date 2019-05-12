@@ -32,6 +32,10 @@ module.exports = class AdbControl {
         this.exec(`shell input tap ${x} ${y}`)
     }
 
+    async swipe(startX, startY, endX, endY, timeout) {
+        this.exec(`shell input swipe ${startX} ${startY} ${endX} ${endY} ${timeout}`)
+    }
+
     exec(cmd) {
         return new Promise((resolve, reject) => {
             exec('adb ' + cmd, (error, stdout, stderr) => {
