@@ -1,0 +1,28 @@
+{
+  "name": "easy-animal-restaurant",
+  "version": "1.0.0",
+  "description": "基于nodejs的微信小程序《动物餐厅》省心脚本",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoPGoldy/easy-animal-restaurant.git"
+  },
+  "keywords": [
+    "nodejs",
+    "weixin"
+  ],
+  "author": "hopgoldy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoPGoldy/easy-animal-restaurant/issues"
+  },
+  "homepage": "https://github.com/HoPGoldy/easy-animal-restaurant#readme",
+  "dependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
