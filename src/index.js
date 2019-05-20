@@ -15,7 +15,7 @@ let adb = new AdbControl()
     do {
         console.log('\n三秒后执行大厅操作\n')
         await sleep(3)
-        adb.swipe(300, 1000, 900, 1000, 300)
+        adb.tap(config.leftScreen.x, config.leftScreen.y)
         await sleep(3)
         await order()
         await pickSiteMoney()
@@ -24,7 +24,7 @@ let adb = new AdbControl()
 
         console.log('\n三秒后执行厨房操作\n')
         await sleep(3)
-        await adb.swipe(900, 1000, 300, 1000, 300)
+        adb.tap(config.rightScreen.x, config.rightScreen.y)
         await sleep(3)
         await pickKitchenMoney()
 

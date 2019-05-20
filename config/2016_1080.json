@@ -1,4 +1,12 @@
 {
+    "leftScreen": {
+        "x": 55,
+        "y": 1080
+    },
+    "rightScreen": {
+        "x": 1020,
+        "y": 1080
+    },
     "firstSite": {
         "x": 390, 
         "y": 805
