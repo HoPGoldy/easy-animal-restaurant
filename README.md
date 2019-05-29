@@ -2,6 +2,8 @@
 
 适用于微信小程序《动物餐厅》的省心脚本，基于nodejs，仅支持安卓手机
 
+**注意**,该项目已停止维护，请访问同项目的python版本 -> [easy-animal-restaurant-py](https://github.com/HoPGoldy/easy-animal-restaurant-py)
+
 # 需求及依赖
 
 - nodejs `8.10.0` 或更高
